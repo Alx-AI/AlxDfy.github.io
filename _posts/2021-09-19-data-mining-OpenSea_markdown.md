@@ -7,7 +7,7 @@ Cryptocurrency is digital native currency, or currency made for and on a digital
 
 OpenSea is the first and largest NFT marketplace created in June 2018. During that month 26 NFT’s were sold for just under \$$ 600 combined. Last month as of writing this (August 2021) 1.6 million NFT’s sold for \$ 3.4 billion USD; more than all previous months combined. That may have been a fluke and NFT’s may be a fad, or it could be a great time to learn more, look at popular collections, and analyze their trends.
 
-![dune_OS.png](attachment:/images/dune_OS.png)
+![dune_OS.png](attachment:/assets/dune_OS.png)
 *Analytics dashboard on OpenSea made by user rchen8* - https://dune.xyz/rchen8/opensea 
 
 As an example I will be investigating the NFT collection Animetas, one that I am particularly interested in along with the Savage Droids collection which will be explored in part 2. 
@@ -16,10 +16,10 @@ As you follow along, you can change the collection this notebook pulls data for.
 
 *Note: You will have to change the start and and dates as well for data pulling. The initial query could take some time and require additional sleep time between loops to not throttle but once pulled and saved you can set dates to only query new data. That way you would only need to load saved data greatly reducing wait time for getting the most updated info.* 
 
-![droid.png](attachment:/images/droid.png)
+![droid.png](attachment:/assets/droid.png)
 
 
-![contract.png](attachment:./images/contract.png)
+![contract.png](attachment:/assets/contract.png)
 
 ### Notebook Functionalities:
 * [Pull and Save NFT Data](#get-nft)
@@ -1458,7 +1458,7 @@ print("The database has information about %d listing transactions." % len(events
 
 Pandas profiling is a great way to get detailed information on a dataset. It requires no work on our side but unfortunately takes a bunch of memory and is usually not able to be run on large datasets.
 
-![sales_report.png](attachment:./images/sales_report.png)
+![sales_report.png](attachment:/assets/sales_report.png)
 
 
 ```python
@@ -1821,9 +1821,9 @@ print(list(set(top_10_buyers) & set(top_10_sellers)))
 
 We also want to see who is holding the most of any asset. This information is actually also available on the Etherscan website for any collection by looking at the token holders.
 
-![token.png](attachment:./images/token.png)
+![token.png](attachment:/assets/token.png)
 
-![tokens.png](attachment:./images/tokens.png)
+![tokens.png](attachment:/assets/tokens.png)
 
 
 ```python
@@ -1979,7 +1979,7 @@ ax.set_xticklabels(ax.get_xticklabels(),rotation = 30);
 
 
     
-![png](./images/data-mining-OpenSea_markdown_58_0.png)
+![png](/assets/data-mining-OpenSea_markdown_58_0.png)
     
 
 
@@ -2002,7 +2002,7 @@ ax.set_xticklabels(ax.get_xticklabels(),rotation = 30);
 
 
     
-![png](./images/data-mining-OpenSea_markdown_59_0.png)
+![png](/assets/data-mining-OpenSea_markdown_59_0.png)
     
 
 
@@ -2027,7 +2027,7 @@ ax.set_xticklabels(ax.get_xticklabels(),rotation = 30);
 
 
     
-![png](./images/data-mining-OpenSea_markdown_61_0.png)
+![png](/assets/data-mining-OpenSea_markdown_61_0.png)
     
 
 
@@ -2055,7 +2055,7 @@ for i, j in zip(dates, values):
 
 
     
-![png](./images/data-mining-OpenSea_markdown_63_1.png)
+![png](/assets/data-mining-OpenSea_markdown_63_1.png)
     
 
 
@@ -2078,7 +2078,7 @@ values = list(data.values)
 
 
     
-![png](./images/data-mining-OpenSea_markdown_66_0.png)
+![png](/assets/data-mining-OpenSea_markdown_66_0.png)
     
 
 
@@ -2098,7 +2098,7 @@ values = list(data.values)
 
 
     
-![png](./images/data-mining-OpenSea_markdown_67_0.png)
+![png](/assets/data-mining-OpenSea_markdown_67_0.png)
     
 
 
@@ -2127,7 +2127,7 @@ for idx, (d, v) in enumerate(zip(dates, values)):
 
 
     
-![png](./images/data-mining-OpenSea_markdown_69_1.png)
+![png](/assets/data-mining-OpenSea_markdown_69_1.png)
     
 
 
@@ -2155,7 +2155,7 @@ for i, j in zip(dates, values):
 
 
     
-![png](./images/data-mining-OpenSea_markdown_71_1.png)
+![png](/assets/data-mining-OpenSea_markdown_71_1.png)
     
 
 
@@ -2179,7 +2179,7 @@ ax.set_xticklabels(ax.get_xticklabels(),rotation = 30);
 
 
     
-![png](./images/data-mining-OpenSea_markdown_73_0.png)
+![png](/assets/data-mining-OpenSea_markdown_73_0.png)
     
 
 
