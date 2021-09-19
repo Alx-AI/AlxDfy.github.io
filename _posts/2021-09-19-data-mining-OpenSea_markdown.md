@@ -7,7 +7,7 @@ Cryptocurrency is digital native currency, or currency made for and on a digital
 
 OpenSea is the first and largest NFT marketplace created in June 2018. During that month 26 NFT’s were sold for just under \$$ 600 combined. Last month as of writing this (August 2021) 1.6 million NFT’s sold for \$ 3.4 billion USD; more than all previous months combined. That may have been a fluke and NFT’s may be a fad, or it could be a great time to learn more, look at popular collections, and analyze their trends.
 
-![dune_OS.png](attachment:/AlxDfy.github.io/_posts/images/dune_OS.png)
+![dune_OS.png](attachment:/images/dune_OS.png)
 *Analytics dashboard on OpenSea made by user rchen8* - https://dune.xyz/rchen8/opensea 
 
 As an example I will be investigating the NFT collection Animetas, one that I am particularly interested in along with the Savage Droids collection which will be explored in part 2. 
@@ -16,7 +16,7 @@ As you follow along, you can change the collection this notebook pulls data for.
 
 *Note: You will have to change the start and and dates as well for data pulling. The initial query could take some time and require additional sleep time between loops to not throttle but once pulled and saved you can set dates to only query new data. That way you would only need to load saved data greatly reducing wait time for getting the most updated info.* 
 
-![droid.png](attachment:./images/droid.png)
+![droid.png](attachment:/images/droid.png)
 
 
 ![contract.png](attachment:./images/contract.png)
